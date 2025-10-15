@@ -78,6 +78,6 @@ For this time-series prediction challenge, our work confirms that an **entangled
 
 ---
 
-## Acknowledgements
+## 8. Acknowledgements
 
 I would like to express my gratitude to the qBraid team for organizing this fun and educational challenge. It provided a valuable opportunity to explore powerful new frameworks like CUDA Quantum, Catalyst, and JAX/JIT for the first time. This experience has been a significant learning journey into the world of accelerated and hybrid quantum computing.
