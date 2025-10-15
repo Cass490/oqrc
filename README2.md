@@ -42,7 +42,6 @@ Our experiments show the entangled architecture is superior.
 | Model Architecture | Framework | R² Score |
 | :--- | :--- | :--- |
 | Hybrid Classical-Quantum (Baseline) | Qiskit | **0.595** |
-| --- | --- | --- |
 | Independent Reservoirs | PennyLane | 0.465 |
 | Channel Coupled Reservoirs | PennyLane | 0.608 |
 | **Entangled Reservoirs (Our Solution)** | **PennyLane** | **0.672** |
@@ -66,3 +65,9 @@ Our approach is consistent with existing research into hybrid quantum-classical 
 ## 7. Conclusion
 
 For this time-series prediction challenge, our work confirms that an **entangled quantum reservoir is a more effective architecture** than simply combining independent quantum and classical systems. Furthermore, we found that this sophisticated quantum model pairs best with a **simple and robust classical readout** to achieve optimal performance.
+
+---
+
+## Acknowledgements
+
+I would like to express my gratitude to the qBraid team for organizing this fun and educational challenge. It provided a valuable opportunity to explore powerful new frameworks like CUDA Quantum, Catalyst, and JAX/JIT for the first time. This experience has been a significant learning journey into the world of accelerated and hybrid quantum computing.
