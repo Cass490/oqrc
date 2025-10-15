@@ -56,7 +56,13 @@ The experiment, however, showed that the neural network performed significantly 
 
 ### Related Work
 
-Our approach is consistent with existing research into hybrid quantum-classical reservoir computing. The use of a classical neural network to process the quantum state's measurement outcomes is a recognized technique.
+Our approach is consistent with existing research into hybrid quantum-classical reservoir computing.
+
+- **arXiv:2508.11175 - "Role of Entanglement in QRC with Coupled Kerr Oscillators"**: This paper finds that creating entanglement between coupled reservoirs leads to a computational advantage and improves time-series prediction.
+
+- **arXiv:2201.07969 - "Two Quantum Reservoirs via Optimized Measurements"**: This work demonstrates the resource efficiency of entanglement, showing that a 7-qubit entangled reservoir can match the performance of a 25-qubit classically-connected system.
+
+The use of a classical neural network to process the quantum state's measurement outcomes is also a recognized technique.
 
 - **R. Martinez-Pena, et al. (2021)**, in "Quantum reservoir computing with a single qubit" (Physical Review A, 103, 052417), demonstrate a QRC where a feed-forward neural network is used as the classical readout layer for processing the qubit measurements.
 
